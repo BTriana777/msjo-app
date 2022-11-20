@@ -1,0 +1,19 @@
+$primary-img: #eb8710;
+$second-img: #4dbcf0;
+$third-img: #add304;
+
+$white: #f3f2f2;
+$black: #0a0a0a;
+
+
+@mixin flex-center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
